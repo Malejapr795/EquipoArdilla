@@ -6,8 +6,4 @@
 # EquipoArdilla
 Integrado por:
 
-María Alejandra Patiño
-
-Julio Cesar Atuesta
-
-Andrés Vargas
+María Alejandra Patiño, Julio Cesar Atuesta, Andrés Vargas,
