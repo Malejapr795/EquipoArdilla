@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/slundberg/shap/master/docs/artwork/shap_header.png" width="800" />
+  <img src="https://dribbble.com/shots/1968200-Squirrel-gif/attachments/9068135?mode=media" width="800" />
 </p>
 
 # EquipoArdilla
