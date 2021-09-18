@@ -6,4 +6,4 @@
 # EquipoArdilla
 Integrado por:
 
-María Alejandra Patiño, Julio Cesar Atuesta, Andrés Vargas, Kevin Vergara
+María Alejandra Patiño, Julio Cesar Atuesta, Andrés Vargas, Kevin Vergara, Cesar David Saavedra.
