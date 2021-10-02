@@ -61,7 +61,7 @@
 
         <div id="g_id_onload"
          data-client_id="105870631788-c3qqdu57hm9v4l5mskga0e9ql2jhtfpu.apps.googleusercontent.com"
-         data-login_uri="https://malejapr795.github.io/EquipoArdilla.github.io"
+         data-callback="handleCredentialResponse"
          data-auto_prompt="false">
         </div>
         <div class="g_id_signin"
@@ -82,4 +82,29 @@
 
       
   </body>
+
+  <script language="JavaScript" type="text/javascript" src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js">
+  </script>
+  <script>
+    function decodeJwtResponse(sJWT) {
+      var payloadObj = KJUR.jws.JWS.readSafeJSONString(b64utoutf8(sJWT.split(".")[1]));
+      return payloadObj;
+    }
+  </script>
+  <script>
+    function handleCredentialResponse(response) {
+      // decodeJwtResponse() is a custom function defined by you
+      // to decode the credential response.
+
+      const responsePayload = decodeJwtResponse(response.credential);
+
+      // console.log(response.credential)
+      console.log("ID: " + responsePayload.sub);
+      console.log('Full Name: ' + responsePayload.name);
+      console.log('Given Name: ' + responsePayload.given_name);
+      console.log('Family Name: ' + responsePayload.family_name);
+      console.log("Image URL: " + responsePayload.picture);
+      console.log("Email: " + responsePayload.email);
+    }
+  </script>
 </html>
