@@ -1,3 +1,25 @@
-.Constructor{
-
+body{
+    background-color: rgba(0,0,20,.9) ;
+    background-image: url('/multimedia/ardilla5.jpg');
+    background-size: 2050px 1000px;
+    
+}
+#titulo{
+    color: #f2d6f5;
+    font-size: 85px;
+    margin-left: 400px ;
+}
+.formulario {
+    height: 300px;
+    width: 250px;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: #fff;
+    border-width:0.2rem;
+    margin: 50px 300px 300px 500px;
+    padding: 120px 80px 70px 180px;
+}
+.footer a{
+    font-size: 12px;
+    color: #fff;
 }
