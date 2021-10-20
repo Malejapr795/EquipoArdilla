@@ -1,25 +1,39 @@
 body{
-    background-color: rgba(0,0,20,.9) ;
     background-image: url('/multimedia/ardilla5.jpg');
-    background-size: 2050px 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    
     
 }
 #titulo{
     color: #f2d6f5;
-    font-size: 85px;
-    margin-left: 400px ;
+    font-size: 80px;
+    margin-left: 300px ;
 }
 .formulario {
-    height: 300px;
-    width: 250px;
+    height:210px;
+    width: 295px;
     border-style: solid;
     border-radius: 4px;
     border-color: #fff;
-    border-width:0.2rem;
-    margin: 50px 300px 300px 500px;
-    padding: 120px 80px 70px 180px;
+    border-width:0.4rem;
+    margin:auto;
+    padding: auto;
+    background-color: rgba(200, 200, 225, 0.35);
+}
+.login{
+    color: #2020a0;
+    
+}
+.singup{
+    color: #202090
 }
 .footer a{
+    padding: 20px 20px;
     font-size: 12px;
     color: #fff;
 }
+/*El selector de formulario afecta todo el article usar una tabla para ordenar el form?
+revisar el code de la app y como ajustar una imagen al fondo de pantalla
+como usar bien el footer, terminar css el domingo como sea que este*/
