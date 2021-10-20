@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Default.css">
+    <link rel="icon" type="image/x-icon" href="/multimedia/apd.png" />
+    <title>Registrar Productos</title>
+</head>
+<body>
+    <header>
+        <button type="button" class="btLogOut"><a href="Index.html">Cerrar sesion</a></button>
+        <button type="button" class="btMenu"><a href="Menu.html">Menu Principal</a></button>
+        <h1>Registro de producto nuevo</h1>
+    </header>
+    <section>
+        <article>
+            <h3 style="color: white;">aca va el formulario para agregar item al inventario</h3>
+            <form action="/Ventas.html" method="post">
+                <label for="nombreproducto">Nombre del producto: <input type="text" id="nombreproducto" placeholder="nombre" /></label><br>
+                <label for="skuproducto">SKU del producto: <input type="text" id="skuProducto" placeholder="sku" /></label><br>
+                <label for="precio">Precio: <input type="text" id="precio" placeholder="precio" /></label><br>
+                <label for="marca">Marca: <input type="text" id="marca" placeholder="marca" /></label><br>
+                <label for="descripcion">Descripcion: <br><textarea id="descripcion" placeholder="Descripcion del producto"></textarea></label><br>
+                <button type="submit" name="submitregventa" class="btItemNuevo">Añadir al inventario</button>
+                <!-- Genera el id de la pr, -->
+            </form>
+        </article>
+    </section>
+        <footer class="footer">
+        Misiontic 2022<br>
+        Derechos Reservados Equipo Ardilla<br>
+            <a href="Construction.html" class="LinkFooter">Contacta al Equipo Ardilla</a>
+            <!--   <a href="mailto:EquipoArdilla@gmail.com">Contacta al Equipo Ardilla</a> -->
+        </footer>
+</body>
+</html>
