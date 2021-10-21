@@ -1,8 +1,8 @@
 html{
-    background-color: rgba(5, 5, 27, 0.95);
+    background-color: rgba(1, 1, 22, 0.95);
 }
 h1{
-    color:rgb(236, 197, 197);
+    color:rgb(245, 217, 158);
     padding:"auto";
     font-size: 77px;
     text-align: center;
@@ -16,8 +16,15 @@ body{
     align-content: center;
 }
 footer {
-    padding: 110px 0px 0px 0px;
+    padding: 10px 0px 0px 0px;
     color: rgb(250, 240, 248);
+  /*  background-image: url("/multimedia/apd.png");
+    background-repeat: no-repeat;*/
+    
+}
+.imagenfooter{
+    padding: 0px 0px 0px 900px;
+    height: 150px;
 }
 .LinkFooter{
     color:rgb(250, 250, 250);
