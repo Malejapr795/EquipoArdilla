@@ -7,34 +7,31 @@
 </head>
 <body>
     <header>
-        <button type="button" class="btLogOut"><a href="Index.html">Cerrar sesion</a></button>
-        <button type="button" class="btMenu"><a href="Menu.html">Menu Principal</a></button>
+        <button type="button" class="headbttn"><a href="Menu.html">Menu Principal</a></button>
+        <button type="button" class="headbttn"><a href="Index.html">Cerrar sesion</a></button>  
         <h1>Registro de Usuario nuevo</h1>
     </header>
     <section>
         <article>
             <h3 style="color: white;">aca va el formulario para agregar un Usuario</h3>
-            <form action="/Ventas.html" method="post">
-                <label for="nombreusuario">Nombre del usuario: <input type="text" id="nombreusuario" placeholder="nombre" /></label><br><br>
-                <label for="idusuario">numero de identificacion: <input type="text" id="idusuario" placeholder="documento" /></label><br><br>
+            <form action="/Ventas.html" method="post" class="registro">
+                <label for="nombreusuario">Nombre del usuario: </label><input type="text" id="nombreusuario" placeholder="nombre" /><br><br>
+                <label for="idusuario">numero de identificacion: </label><input type="text" id="idusuario" placeholder="documento" /><br><br>
                 <label for="vendedor">Vendedor </label><input type="radio" id="vendedor" />
                 <label for="admin">Administrador </label><input type="radio" id="admin" /><br><br>
-                <label for="nombrecredencial">Nombre de cuenta: <input type="text" id="nombrecredencial" placeholder="nombre de usuario" /></label><br><br>
-                <button type="submit" class="btSubUsuario">Crear Usuario</button>
+                <label for="nombrecredencial">Nombre de cuenta:</label> <input type="text" id="nombrecredencial" placeholder="nombre de usuario" /><br><br>
+                <button type="submit" class="submitbttn">Crear Usuario</button>
                 <!-- Genera el id usuairo-->
             </form>
         </article>
     </section>
-    <footer class="footer">
-        <table>
-            <td>Misiontic 2022<br>
-                Derechos Reservados Equipo Ardilla<br>
-                <a href="Construction.html" class="LinkFooter">Contacta al Equipo Ardilla</a>
-            </td>
-            <td>
-                <img src="/multimedia/apd.png" / class="imagenfooter">
-            </td>
-        </table>
+    <footer>
+        <div id="footerinfo">
+            Misiontic 2022<br>
+            Derechos Reservados Equipo Ardilla<br>
+            <a href="Construction.html" class="LinkFooter">Contacta al Equipo Ardilla</a>
+        </div>
+        <img src="/multimedia/apd.png" / class="imagenfooter">
         <!--   <a href="mailto:EquipoArdilla@gmail.com">Contacta al Equipo Ardilla</a> -->
     </footer>
 </body>

@@ -6,31 +6,49 @@ body{
     
     
 }
-#titulo{
-    color: #f2d6f5;
-    font-size: 80px;
-    margin-left: 300px ;
-}
-.formulario {
-    height:210px;
-    width: 295px;
-    border-style: solid;
-    border-radius: 4px;
-    border-color: #fff;
-    border-width:0.4rem;
-    margin:auto;
-    padding: auto;
-    background-color: rgba(200, 200, 225, 0.35);
-}
-.login{
-    color: #2020a0;
+button:hover{
+    background-color: rgba(215, 240, 247, 0.904);
+    cursor:pointer;
     
 }
-.singup{
-    color: #202090
+input{
+   line-height: 25px;
+   font-size:16px;
+   border-radius: 5px;
+   padding: 5px;
+}
+#titulo{
+    color: #f5edd6;
+    font-size: 80px;
+    margin:0px auto;
+    text-align: center;
+}
+
+.formulario {
+    background-color: rgba(200, 200, 225, 0.35);
+    height:260px;
+    width: 325px;
+    margin: 50px auto;
+    border-style: solid;
+    border-radius: 6px;
+    border-color: #fff;
+    border-width:0.4rem;
+    text-align: center;
+    padding: 35px 0px 0px;
+}
+.login, .gmail{
+    margin: 0px auto;
+    align-self: center;
+    color: #2020a0;
+    padding: 10px 40px;
+    border-radius: 9px;
+    font-size:16px;
+}
+.gmail{
+    padding: 10px 30px 10px 30px;
 }
 footer {
-    padding: 130px 0px 0px 0px;
+    padding: 50px 0px 0px 0px;
     color: rgb(250, 240, 248);
 }
 .LinkFooter{
